@@ -1,4 +1,4 @@
-# Ghidra Auto-Renamer: String-Based Function Renaming Script
+# Ghidra Auto-Renamer
 
 Bu proje, İstinye Üniversitesi Tersine Mühendislik (Reverse Engineering) dersi final projesi kapsamında geliştirilmiştir.
 
