@@ -9,9 +9,9 @@ Bu proje, analiz edilen yazÄ±lÄ±mlarda bulunan tanÄ±mlÄ± string (metin) 
 ---
 
 ## Tersine MÃ¼hendislik SÃ¼reÃ§lerine FaydalarÄ±
-- Ä°simsiz (Ã¶rn: `FUN_00401000`) fonksiyonlarÄ±n amacÄ±nÄ± hÄ±zlÄ±ca belirleme imkanÄ± sunar.
-- Ã‡ok sayÄ±da string ve fonksiyon iÃ§eren bÃ¼yÃ¼k yazÄ±lÄ±mlarda zaman tasarrufu saÄŸlar.
-- Statik analizin verimliliÄŸini artÄ±rarak manuel inceleme yÃ¼kÃ¼nÃ¼ azaltÄ±r.
+- **HÄ±zlÄ± Tespit:** Ä°simsiz (Ã¶rn: `FUN_00401000`) fonksiyonlarÄ±n amacÄ±nÄ± hÄ±zlÄ±ca belirleme imkanÄ± sunar.
+- **Zaman Tasarrufu:** Ã‡ok sayÄ±da string ve fonksiyon iÃ§eren bÃ¼yÃ¼k yazÄ±lÄ±mlarda zaman tasarrufu saÄŸlar.
+- **Verimlilik ArtÄ±ÅŸÄ±:** Statik analizin verimliliÄŸini artÄ±rarak manuel inceleme yÃ¼kÃ¼nÃ¼ azaltÄ±r.
 
 ---
 
@@ -23,7 +23,7 @@ Bu proje, analiz edilen yazÄ±lÄ±mlarda bulunan tanÄ±mlÄ± string (metin) 
 
 ## Kurulum
 1. `StringRenamer.py` dosyasÄ±nÄ± bilgisayarÄ±nÄ±za indirin.
-2. Ghidra dizininde yer alan `ghidra_scripts` klasÃ¶rÃ¼nÃ¼n iÃ§erisine kopyalayÄ±n. (Alternatif olarak Ghidra Script Manager Ã¼zerinden yeni bir dizin yolu gÃ¶sterebilirsiniz.)
+2. Ghidra dizininde yer alan `ghidra_scripts` klasÃ¶rÃ¼nÃ¼n iÃ§erisine kopyalayÄ±n. *(Alternatif olarak Ghidra Script Manager Ã¼zerinden yeni bir dizin yolu gÃ¶sterebilirsiniz.)*
 
 ---
 
