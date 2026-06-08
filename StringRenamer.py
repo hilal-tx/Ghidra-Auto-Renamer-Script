@@ -14,7 +14,10 @@ def sanitize_string(s):
     return cleaned[:20]
 
 def main():
+    print("Otomatik fonksiyon yeniden adlandirma baslatildi...")
     dataIterator = get_defined_strings(currentProgram)
+    rename_count = 0
+    
     for data in dataIterator:
         try:
             if data.hasStringValue():
@@ -43,10 +46,13 @@ def main():
                         try:
                             func.setName(new_func_name, SourceType.USER_DEFINED)
                             print("{} adresindeki string, {} fonksiyonuna atandi (Eski ad: {})".format(string_address, new_func_name, current_name))
+                            rename_count += 1
                         except Exception as e:
                             print("Fonksiyon isimlendirme sirasinda hata: " + str(e))
         except Exception as e:
             print("String degeri okunurken hata olustu: " + str(e))
+            
+    print("Islem tamamlandi. Toplam {} fonksiyon yeniden adlandirildi.".format(rename_count))
 
 if __name__ == "__main__":
     main()
