@@ -9,3 +9,6 @@ Bu proje, analiz edilen yazÄ±lÄ±mlarda bulunan tanÄ±mlÄ± string (metin) 
 ## KullanÄ±lan Teknik AltyapÄ±
 - Ghidra FlatProgramAPI
 - Jython (Python)
+## Kurulum
+1. `StringRenamer.py` dosyasÄ±nÄ± bilgisayarÄ±nÄ±za indirin.
+2. Ghidra dizininde yer alan `ghidra_scripts` klasÃ¶rÃ¼nÃ¼n iÃ§erisine kopyalayÄ±n. (Alternatif olarak Ghidra Script Manager Ã¼zerinden yeni bir dizin yolu gÃ¶sterebilirsiniz.)
