@@ -23,6 +23,10 @@ def main():
             for ref in references:
                 from_addr = ref.getFromAddress()
                 func = getFunctionContaining(from_addr)
+                if func is not None:
+                    current_name = func.getName()
+                    if not current_name.startswith("FUN_"):
+                        continue
 
 if __name__ == "__main__":
     main()
