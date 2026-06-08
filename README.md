@@ -2,3 +2,7 @@
 Ä°stinye Ãœniversitesi, Tersine MÃ¼hendislik Final Projesi - GeliÅŸtirici: Hilal ÅengÃ¼l
 ## Projenin AmacÄ±
 Bu proje, analiz edilen yazÄ±lÄ±mlarda bulunan tanÄ±mlÄ± string (metin) referanslarÄ±nÄ± kullanarak, bu stringleri Ã§aÄŸÄ±ran fonksiyonlarÄ± otomatik olarak yeniden isimlendiren bir araÃ§ geliÅŸtirmeyi hedefler. Temel amaÃ§, analiz sÃ¼recini hÄ±zlandÄ±rmak ve karmaÅŸÄ±k kod bloklarÄ±nÄ± daha anlaÅŸÄ±lÄ±r hale getirmektir.
+## Tersine MÃ¼hendislik SÃ¼reÃ§lerine FaydalarÄ±
+- Ä°simsiz (Ã¶rn: FUN_00401000) fonksiyonlarÄ±n amacÄ±nÄ± hÄ±zlÄ±ca belirleme imkanÄ± sunar.
+- Ã‡ok sayÄ±da string ve fonksiyon iÃ§eren bÃ¼yÃ¼k yazÄ±lÄ±mlarda zaman tasarrufu saÄŸlar.
+- Statik analizin verimliliÄŸini artÄ±rarak manuel inceleme yÃ¼kÃ¼nÃ¼ azaltÄ±r.
