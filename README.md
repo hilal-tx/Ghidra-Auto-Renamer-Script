@@ -6,3 +6,6 @@ Bu proje, analiz edilen yazÄ±lÄ±mlarda bulunan tanÄ±mlÄ± string (metin) 
 - Ä°simsiz (Ã¶rn: FUN_00401000) fonksiyonlarÄ±n amacÄ±nÄ± hÄ±zlÄ±ca belirleme imkanÄ± sunar.
 - Ã‡ok sayÄ±da string ve fonksiyon iÃ§eren bÃ¼yÃ¼k yazÄ±lÄ±mlarda zaman tasarrufu saÄŸlar.
 - Statik analizin verimliliÄŸini artÄ±rarak manuel inceleme yÃ¼kÃ¼nÃ¼ azaltÄ±r.
+## KullanÄ±lan Teknik AltyapÄ±
+- Ghidra FlatProgramAPI
+- Jython (Python)
