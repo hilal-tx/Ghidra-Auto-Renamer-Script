@@ -27,7 +27,12 @@ def main():
                 new_func_name = "func_" + clean_str
                 
                 string_address = data.getAddress()
-                references = getReferencesTo(string_address)
+                try:
+                    references = getReferencesTo(string_address)
+                except Exception as e:
+                    print("XREF referanslari alinirken hata: " + str(e))
+                    continue
+
                 for ref in references:
                     from_addr = ref.getFromAddress()
                     func = getFunctionContaining(from_addr)
