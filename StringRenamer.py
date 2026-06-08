@@ -9,6 +9,9 @@ def get_defined_strings(program):
     dataManager = program.getListing()
     return dataManager.getDefinedData(True)
 
+def sanitize_string(s):
+    return re.sub(r'[^a-zA-Z0-9]', '_', s).strip('_')
+
 def main():
     pass
 
