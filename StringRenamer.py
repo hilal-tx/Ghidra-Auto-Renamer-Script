@@ -42,6 +42,7 @@ def main():
                             continue
                         try:
                             func.setName(new_func_name, SourceType.USER_DEFINED)
+                            print("{} adresindeki string, {} fonksiyonuna atandi (Eski ad: {})".format(string_address, new_func_name, current_name))
                         except Exception as e:
                             print("Fonksiyon isimlendirme sirasinda hata: " + str(e))
         except Exception as e:
