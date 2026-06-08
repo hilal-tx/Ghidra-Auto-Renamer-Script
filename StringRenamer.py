@@ -18,6 +18,8 @@ def main():
     for data in dataIterator:
         if data.hasStringValue():
             string_val = data.getValue()
+            string_address = data.getAddress()
+            references = getReferencesTo(string_address)
 
 if __name__ == "__main__":
     main()
