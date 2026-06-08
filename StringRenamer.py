@@ -10,7 +10,8 @@ def get_defined_strings(program):
     return dataManager.getDefinedData(True)
 
 def sanitize_string(s):
-    return re.sub(r'[^a-zA-Z0-9]', '_', s).strip('_')
+    cleaned = re.sub(r'[^a-zA-Z0-9]', '_', s).strip('_')
+    return cleaned[:20]
 
 def main():
     pass
