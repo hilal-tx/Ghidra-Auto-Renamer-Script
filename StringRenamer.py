@@ -40,7 +40,10 @@ def main():
                         current_name = func.getName()
                         if not current_name.startswith("FUN_"):
                             continue
-                        func.setName(new_func_name, SourceType.USER_DEFINED)
+                        try:
+                            func.setName(new_func_name, SourceType.USER_DEFINED)
+                        except Exception as e:
+                            print("Fonksiyon isimlendirme sirasinda hata: " + str(e))
         except Exception as e:
             print("String degeri okunurken hata olustu: " + str(e))
 
