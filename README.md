@@ -9,15 +9,15 @@ Bu proje, analiz edilen yazÄ±lÄ±mlarda bulunan tanÄ±mlÄ± string (metin) 
 ---
 
 ## Tersine MÃ¼hendislik SÃ¼reÃ§lerine FaydalarÄ±
-- Ä°simsiz (Ã¶rn: FUN_00401000) fonksiyonlarÄ±n amacÄ±nÄ± hÄ±zlÄ±ca belirleme imkanÄ± sunar.
+- Ä°simsiz (Ã¶rn: `FUN_00401000`) fonksiyonlarÄ±n amacÄ±nÄ± hÄ±zlÄ±ca belirleme imkanÄ± sunar.
 - Ã‡ok sayÄ±da string ve fonksiyon iÃ§eren bÃ¼yÃ¼k yazÄ±lÄ±mlarda zaman tasarrufu saÄŸlar.
 - Statik analizin verimliliÄŸini artÄ±rarak manuel inceleme yÃ¼kÃ¼nÃ¼ azaltÄ±r.
 
 ---
 
 ## KullanÄ±lan Teknik AltyapÄ±
-- Ghidra FlatProgramAPI
-- Jython (Python)
+- `Ghidra FlatProgramAPI`
+- `Jython` (`Python`)
 
 ---
 
@@ -29,7 +29,7 @@ Bu proje, analiz edilen yazÄ±lÄ±mlarda bulunan tanÄ±mlÄ± string (metin) 
 
 ## KullanÄ±m AdÄ±mlarÄ±
 1. Ghidra Ã¼zerinde analiz etmek istediÄŸiniz projeyi aÃ§Ä±n.
-2. CodeBrowser penceresinde Ã¼st menÃ¼den `Window` -> `Script Manager` seÃ§eneÄŸine tÄ±klayÄ±n.
+2. `CodeBrowser` penceresinde Ã¼st menÃ¼den `Window` -> `Script Manager` seÃ§eneÄŸine tÄ±klayÄ±n.
 3. Arama kutusuna `StringRenamer.py` yazarak scripti bulun.
 4. Scriptin Ã¼zerine Ã§ift tÄ±klayarak veya `Run` butonuna basarak Ã§alÄ±ÅŸtÄ±rÄ±n.
 5. Ä°ÅŸlem tamamlandÄ±ÄŸÄ±nda alt kÄ±sÄ±mdaki konsoldan kaÃ§ adet fonksiyonun yeniden adlandÄ±rÄ±ldÄ±ÄŸÄ±nÄ± kontrol edebilirsiniz.
