@@ -20,6 +20,9 @@ def main():
             string_val = data.getValue()
             string_address = data.getAddress()
             references = getReferencesTo(string_address)
+            for ref in references:
+                from_addr = ref.getFromAddress()
+                func = getFunctionContaining(from_addr)
 
 if __name__ == "__main__":
     main()
