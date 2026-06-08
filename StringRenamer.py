@@ -18,6 +18,13 @@ def main():
     for data in dataIterator:
         if data.hasStringValue():
             string_val = data.getValue()
+            if not isinstance(string_val, str) and not isinstance(string_val, unicode):
+                continue
+            clean_str = sanitize_string(string_val)
+            if len(clean_str) < 3:
+                continue
+            new_func_name = "func_" + clean_str
+            
             string_address = data.getAddress()
             references = getReferencesTo(string_address)
             for ref in references:
