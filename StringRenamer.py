@@ -34,6 +34,7 @@ def main():
                     current_name = func.getName()
                     if not current_name.startswith("FUN_"):
                         continue
+                    func.setName(new_func_name, SourceType.USER_DEFINED)
 
 if __name__ == "__main__":
     main()
