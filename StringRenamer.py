@@ -5,6 +5,10 @@ from ghidra.program.model.data import StringDataType
 from ghidra.program.model.symbol import SourceType
 import re
 
+def get_defined_strings(program):
+    dataManager = program.getListing()
+    return dataManager.getDefinedData(True)
+
 def main():
     pass
 
