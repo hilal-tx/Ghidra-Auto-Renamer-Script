@@ -14,7 +14,10 @@ def sanitize_string(s):
     return cleaned[:20]
 
 def main():
-    pass
+    dataIterator = get_defined_strings(currentProgram)
+    for data in dataIterator:
+        if data.hasStringValue():
+            string_val = data.getValue()
 
 if __name__ == "__main__":
     main()
